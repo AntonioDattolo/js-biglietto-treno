@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <section class="container bg-primary text-center">
+            <div class="col-10 p-1 offset-1">
+                <h1>
+                    <a class="text-white text-decoration-none" href="http://">Boolea-train</a>
+                </h1>
+            </div>
+        </section>
+
+    </header>
+    <main>
+        <section class="container bg-secondary">
+            <div class="col-7">
+                <form>
+                    <div class="mb-3">
+                      <label  class="form-label">How much km?</label>
+                      <input type="text" class="form-control" id="how-km">
+                     
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">How many years?</label>
+                      <input type="text" class="form-control" id="hm-years">
+                    </div>
+                    
+                    <input class="btn btn-primary" type="button"  value="Submit" onclick="elaborated()">Submit</input>
+                    <span value="il prezzo è" style="color: red;" id="titi"></span>
+                  </form>
+
+                
+             
+            </div>
+            <div class="col-4 offset-1">
+               
+            </div>
+        </section>
+
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>
