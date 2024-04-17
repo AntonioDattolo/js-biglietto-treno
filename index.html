@@ -19,28 +19,36 @@
 
     </header>
     <main>
-        <section class="container bg-secondary">
-            <div class="col-7">
+        <section class="container bg-secondary d-flex">
+            <div class="col-7 my-5 text-center">
                 <form>
-                    <div class="mb-3">
+                    <div class="mb-3 my-3">
                       <label  class="form-label">How many kilometers will the passenger have to travel?</label>
                       <input type="text" class="form-control" id="how-km">
                      
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-3 my-3">
                       <label class="form-label">What is the age of the passenger?</label>
                       <input type="text" class="form-control" id="hm-years">
                     </div>
                     
-                    <input class="btn btn-primary" type="button"  value="Submit" onclick="elaborated()">Submit</input>
-                    <span value="il prezzo è" style="color: red;" id="titi"></span>
+                    <input class="btn btn-primary" type="button"  value="Submit" onclick="elaborated()"></input>
+                  
                   </form>
 
                 
              
             </div>
-            <div class="col-4 offset-1">
-               
+            <div class="col-4 offset-1 my-5 ">
+                <div class="card" style="width: 18rem;">
+                    <img class="mx-4 w-75 col-10" src="https://static.vecteezy.com/ti/vettori-gratis/p3/27304739-prenotazione-biglietto-su-treno-piatto-monocromatico-isolato-vettore-oggetto-pianificazione-viaggio-modificabile-nero-e-bianca-linea-arte-disegno-semplice-schema-individuare-illustrazione-per-ragnatela-grafico-design-vettoriale.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center ">
+                      <h5 class="card-title">Your Ticket :</h5>
+                      <p class="card-text"><span class="badge text-bg-success fs-2 text" value="il prezzo è"  id="titi"></span></p>
+                      <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+                
             </div>
         </section>
 
