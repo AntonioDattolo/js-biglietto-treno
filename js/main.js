@@ -8,7 +8,7 @@ function elaborated(){
     const minor = biglietto / 100 * 20
     const senior = biglietto / 100 * 40
     if (hyears >=18 && hyears < 65){
-        let bigliett = hkm * pkm 
+        let biglietto = hkm * pkm 
         document.getElementById("titi").innerHTML =`${biglietto.toFixed(1)} €`
     }else if (hyears < 18){
         let bigliettoMinor = biglietto - minor
